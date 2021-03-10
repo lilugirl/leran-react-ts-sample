@@ -1,0 +1,29 @@
+{
+  "name": "my-module",
+  "version": "0.1.0",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 17.0.2",
+    "react-dom": ">= 16.8.0 < 17.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tslib": "1.9.3",
+    "typescript": "3.4.1"
+  }
+}
